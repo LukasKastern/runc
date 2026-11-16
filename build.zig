@@ -298,7 +298,7 @@ pub fn build(b: *std.Build) !void {
 
     // Build crun
     const crun = b.addExecutable(.{
-        .name = "crun",
+        .name = "crun-exe",
         .root_module = b.createModule(.{
             .target = target,
             .optimize = optimize,

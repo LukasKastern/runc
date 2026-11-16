@@ -1,6 +1,6 @@
-# json-c
+# crun
 
-This is [json-c](https://github.com/json-c/json-c), packaged for Zig.
+This is [crun](https://github.com/containers/crun), packaged for Zig.
 
 ## Installation
 
@@ -9,17 +9,17 @@ First, update your `build.zig.zon`:
 ```
 # Initialize a `zig build` project if you haven't already
 zig init
-zig fetch --save git+https://github.com/lukaskastern/json-c.git
+zig fetch --save git+https://github.com/lukaskastern/crun.git
 ```
 
-You can then link `json-c` in your `build.zig` with:
+You can then link `crun` in your `build.zig` with:
 
 ```zig
-const json_c_dep = b.dependency("json-c", .{
+const crun_dep = b.dependency("crun", .{
     .target = target,
     .optimize = optimize,
 });
-your_module.linkLibrary(json_c_dep.artifact("json-c"));
+your_module.linkLibrary(json_c_dep.artifact("crun"));
 ```
 
 ### Zig Version
