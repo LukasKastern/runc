@@ -1,0 +1,17 @@
+.{
+    .name = .crun,
+    .paths = .{""},
+    .fingerprint = 0xa7e0fa2368ee8b4b,
+    .version = "0.1.0",
+    .minimum_zig_version = "0.17.0",
+    .dependencies = .{
+        .upstream = .{
+            .url = "git+https://github.com/containers/crun#a84965e1278d08d6c75d5b8a41a3e72a7a11fa5b",
+            .hash = "N-V-__8AAA1LLQAbemOq2v1snaE_-P_m8JWBiOCTHhNJN_Re",
+        },
+        .ocispec = .{
+            .url = "git+https://github.com/lukaskastern/libocispec#e4b92549e612528f2c648b4ff78cbdddc2831473",
+            .hash = "ocispec-0.1.0-br_rpp0tLwAlgxVH3faNFooewAoyJKwu5qA_92DTUOAc",
+        },
+    },
+}
