@@ -6,8 +6,8 @@
     .minimum_zig_version = "0.17.0",
     .dependencies = .{
         .upstream = .{
-            .url = "git+https://github.com/containers/crun#a84965e1278d08d6c75d5b8a41a3e72a7a11fa5b",
-            .hash = "N-V-__8AAA1LLQAbemOq2v1snaE_-P_m8JWBiOCTHhNJN_Re",
+            .url = "git+https://github.com/lukaskastern/crun#825a8ce63a84515044b2dda997d29dcfe385bb1a",
+            .hash = "N-V-__8AAANQLQAF1eFRInODvdSLIIZ2CkYzT2C8jIixuMXf",
         },
         .ocispec = .{
             .url = "git+https://github.com/lukaskastern/libocispec#e4b92549e612528f2c648b4ff78cbdddc2831473",
